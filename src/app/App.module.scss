@@ -1,0 +1,14 @@
+.app {
+  text-align: center;
+  background-color: darkgrey;
+  min-height: 100vh;
+
+  .header {
+    background-color: dimgrey;
+
+    .title {
+      color:#2E1D21;
+      opacity: 0.5;
+    }
+  }
+}
