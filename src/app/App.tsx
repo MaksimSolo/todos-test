@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './App.module.scss';
-import {AppBar, Typography} from "@mui/material";
+import {AppBar, Container, Typography} from "@mui/material";
+import {TodosList} from "../features/TodosList/TodosList";
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
           todos
         </Typography>
       </AppBar>
+      <Container fixed>
+        <TodosList/>
+      </Container>
     </div>
   );
 }
